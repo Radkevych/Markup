@@ -1,0 +1,316 @@
+
+body.color {
+  background-color: #E5E5E5;
+}
+.block{
+  max-width: 1440px;
+  min-height: 585px;
+  margin: 0 auto;
+  text-align: center;
+}
+header div.block {
+  background-color: #ffffff;
+  text-align: center;
+  Width: 1440;
+  Height: 500px;
+  Top: 100px;
+  Left: 192px;
+}
+.h1_text {
+  Height: 47px;
+  font-family: 'Times New Roman';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 69px;
+  color: #000000;
+  padding: 50px;
+  margin-bottom: 47px;
+}
+.p1_text {
+  max-width: 1024px;
+  min-height: 47px;
+  Top: 216px;
+  Left: 208px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #000000;
+  padding-right: 200px;
+  padding-left: 200px;
+}
+.button1 {
+  Width: 307px;
+  Height: 80px;
+  Top: 314px;
+  Left: 566px;
+  border-radius: 10px;
+  Padding 24px, 50px, 24px, 50px;
+  grid-gap: 10px;    
+  padding: 10px;
+  margin: 92px;
+  background-color: #5E964B;
+  border: 400px;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 32px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+div.flex {
+  display: flex;
+  box-sizing: border-box;
+  background: #ffffff;
+  justify-content:space-evenly;
+  font-family: 'Times New Roman';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: left;
+  padding-bottom: 100px;
+  margin-bottom: -100px;
+}
+div.block2 {
+  width: 1200px;
+  height: 46px;
+  left: 120px;
+  top: 662px; 
+  width: 1440px;
+  height: 200px;
+  background: #CCCCCC;
+  margin: 0 auto;
+  position: static;
+}
+.h2_text2 {
+  max-width: 1200px;
+  min-height: 46px;
+  top: 662px;
+  right: 0px;
+  left: 120px;
+  font-family: 'Times New Roman';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 200px;
+  text-align: center;
+  color: #FFFFFF;
+  margin: 77px 120px;
+}
+.block3 {
+  display: flex;
+  content: block;
+  box-sizing: border-box;
+  border-top: 77px solid #FFFFFF;
+  border-right: 70px solid #FFFFFF;
+  border-left: 70px solid #FFFFFF;
+  max-width: 1440px;
+  min-height: 461px;
+  Width: 1440px;
+  Height: 461px;
+  margin: 0 auto;
+  background-color: #CCCCCC;
+  line-height: 23px;
+  padding-top: 40px;
+  text-align: left;
+}
+#box1 {
+  box-sizing: border-box;  
+  width: 350px;
+  height: 300px;
+  left: 145px;
+  margin: 0 auto;
+  margin-left: 75px;
+  background: #FFFFFF;
+  border-radius: 10px;
+}
+#box1_text {
+  width: 260px;
+  height: 92px;
+  left: 165px;
+  top: 945px;
+  font-family: 'Times New Roman';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #000000;
+  padding: 20px 70px 188px 20px;
+}
+#box2 {
+  box-sizing: border-box;
+  width: 350px;
+  height: 300px;
+  background-color: #FFFFFF;
+  margin: 0 auto;
+  margin-left: 0px;
+  margin-right: 0px;
+  border-radius: 10px;
+  padding-bottom: 100px
+}
+#box2_text {
+  width: 260px;
+  height: 46px;
+  left: 565px;
+  top: 945px;
+  font-family: 'Times New Roman';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #000000;
+  padding: 20px 70px 234px 20px;
+}
+#box3 {
+  box-sizing: border-box;
+  width: 350px;
+  height: 300px;
+  background: #FFFFFF;
+  margin: 0 auto;
+  margin-right: 75px;
+  border-radius: 10px;
+}
+#box3_text {
+  width: 260px;
+  height: 92px;
+  left: 165px;
+  top: 945px;
+  font-family: 'Times New Roman';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #000000;
+  padding: 20px 70px 188px 20px;
+}
+.text_green{
+  color: green;
+  font-weight: bold;
+}
+.block4 {
+  content: block;
+  box-sizing: border-box;
+  border-right: 70px solid #FFFFFF;
+  border-left: 70px solid #FFFFFF;
+  border-bottom: 70px solid #FFFFFF;
+  max-width: 1440px;
+  min-height: 661px;
+  Width: 1440px;
+  Height: 661px;
+  margin: 0 auto;
+  padding-top: 25px;
+  background-color: #CCCCCC;
+}
+.h2_text3 {
+  font-family: 'Arial';
+  text-align: left;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 46px;
+  color: #FFFFFF;
+  width: 600px;
+  height: 138px;
+  left: 120px;
+  top: 1310px;
+  padding-left: 50px;
+  padding-bottom: 44px;
+}
+.block4 .p1_text2 {
+  width: 600px;
+  height: 46px;
+  left: 120px;
+  top: 1492px;
+  font-family: 'Times New Roman';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #000000;
+  padding-left: 50px;
+  padding-bottom: 77px;
+  text-align: left;
+}
+.div .p,a{
+  color: black;
+}
+.button2box {
+  box-sizing: border-box;
+  gap: 10px;
+  width: 244px;
+  height: 80px;
+  left: 220px;
+  top: 1615px;
+  background: #FFFFFF;
+  border: 2px solid #5E964B;
+  border-radius: 10px;
+  margin-right: 950px;
+  margin-bottom: 51px;
+  Padding: 24px, 50px, 24px, 50px;
+}
+p.button_text{
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 0px;
+  text-transform: uppercase;
+  color: #5E964B;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  text-align: center; 
+}
+.footer {
+  max-width: 1440px;
+  max-height: 585px;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 150px;
+  background-color: #ffffff;
+}
+.flex2row {
+  max-width: 1440px;
+  max-height: 585px;
+  width: 722px;
+  height: 23px;
+  left: 1298px;
+  top: 1896px;
+  margin: 0 auto;
+  padding-left: 670px;
+  padding-right: 50px;
+  background-color: #ffffff;
+}
+
+div.flexatend{
+  display: flex;
+  box-sizing: border-box;
+  background: #ffffff;
+  justify-content:space-evenly;
+  font-family: 'Times New Roman';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: left;
+}
+
+div.noneflex{
+  background: #ffffff;
+  font-family: 'Times New Roman';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  padding-top: 20px;
+  padding-right: 20px;
+  text-align: right;
+}

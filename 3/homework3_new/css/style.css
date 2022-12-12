@@ -1,0 +1,141 @@
+.body {
+  background-color: #ccc;
+  font-family: 'Roboto', sant-serif;
+  font-weight: 400;
+  text-align: left;
+  padding-top: 50px;
+  padding-right: 628px;
+  padding-bottom: 50px;
+}
+.block{
+  max-width: 1440px;
+  min-width: 830px;
+  mix-height: 1200px;
+  background-color: #FAFAFA;
+}
+.alltitle {
+  margin-left: 12px;
+  font-size: 20px;
+  line-height: 22px;
+  color: #000000;
+  font-weight: 400;
+  font-family: "Roboto";
+  line-height: 14px;
+}
+.selectcountry{
+  padding-inline: 20px;
+  font-size: 24px;
+  line-height: 26px;
+  color: #000000;
+  font-weight: 400;
+  font-family: "Roboto";
+}
+.legend {
+  padding-top: 50px;
+  margin-left: 12px;
+  margin-bottom: 58px;
+  font-size: 32px;
+  line-height: 34px;
+  color: #000000;
+  font-weight: 400;
+  font-family: "Roboto";
+}
+.text, .email, .tel, .select, .textbox, .radioblock, .selectcountry {
+  margin-left: 12px;
+  margin-bottom: 39px;
+  margin-top: 10px;
+  display: block;
+  width: 800px;
+  height: 60px;
+  border-radius: 8px;
+  background-color: #e6e6e6;
+  border: 2px solid #808080;
+}
+.textarea {
+  margin-left: 12px;
+  margin-bottom: 30px;
+  display: block;
+  width: 800px;
+  height: 100px;
+  border-radius: 8px;
+  background-color: #e6e6e6;
+  border: 2px solid #808080;
+  margin-top: 10px;
+  }
+  
+.checkbox-row{
+  width: 120px;
+}
+.radiotitle {
+  margin-left: 12px;
+  font-size: 24px;
+  line-height: 26px;
+  color: #000000;
+  font-weight: 400;
+  font-family: "Roboto";
+  vertical-align: center;
+}
+.radio1, .radio2 {
+  margin-left: 12px;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: #e6e6e6;
+  border: 2px solid #808080;
+  vertical-align: center;
+  vertical-align: -7px;
+}
+
+.up {
+  margin-top: 30px;
+}
+
+.bottom {
+  margin-bottom: 30px;
+}
+
+.checkbox {
+  margin-left: 12px;
+  margin-bottom: 30px;
+  font-size: 20px;
+  line-height: 22px;
+  color: #000000;
+  font-weight: 400;
+  font-family: "Roboto";
+}
+.checkboxbutton {
+  width: 30px;
+  height: 30px;
+  border-radius: 8px;
+  background-color: #e6e6e6;
+  border: 2px solid #808080;
+  margin-left: 12px;
+  vertical-align: -7px;
+}
+.button1 {
+  width: 360px;
+  height: 75px;
+  border-radius: 8px;
+  background-color: #e6e6e6;
+  border: 0px solid #808080;
+  font-size: 24px;
+  line-height: 26px;
+  color: #808080;
+  font-weight: 400;
+  font-family: "Roboto";
+  margin-left: 12px;
+} 
+.button2 {
+  width: 360px;
+  height: 75px;
+  border-radius: 8px;
+  background-color: #000000;
+  border: 0px solid #808080;
+  font-size: 24px;
+  line-height: 26px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Roboto";
+  margin-left: 50px;
+  margin-bottom: 79px;
+}

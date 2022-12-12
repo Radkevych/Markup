@@ -1,0 +1,4 @@
+<div class="relative">
+  <div class="red"></div>
+  <div class="green"></div>
+</div>
