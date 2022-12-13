@@ -1,0 +1,364 @@
+.body{
+  background: #E5E5E5;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  max-width: 1440px;
+  max-height: 2005px;
+  color: #005BBB;
+  line-height: 1;
+  order:1
+}
+
+.header {
+  text-align: center;
+  padding: 80px 0 0;
+  position: relative;
+}
+
+
+
+.logotype {
+  display: inline-block;
+  width: 68px;
+  height: 59px; 
+  margin: 0 0 80px 0;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  margin: 0 40px 40px;
+  line-height: 24px;
+  color: #005BBB;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+#menu__toggle {
+  opacity: 0;
+}
+
+.menu__btn {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+  display: block;
+  position: absolute;
+  width: 90%;
+  height:  2px;
+  background-color: #005BBB;
+
+}
+.menu__btn > span::before {
+  content: '';
+  top: -8px;
+}
+.menu__btn > span::after {
+  content: '';
+  top: 8px;
+}
+
+
+.menu__box {
+  display: block;
+  position: fixed;
+  visibility: hidden;
+  top: 0;
+  left: -100%;
+  width: 300px;
+  height: 100%;
+  margin: 0;
+  padding: 80px 0;
+  list-style: none;
+  text-align: center;
+  background-color: #ECEFF1;
+}
+
+.menu__item {
+  display: block;
+  padding: 12px 24px;
+  color: #005BBB;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+}
+.menu__item:hover {
+  background-color: #CFD8DC;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.menu__btn {
+  position: absolute;
+  left: 94%;
+  top: 10%;
+  border: 0;
+  background: none;
+  padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+.gallery {
+  display: line;
+  max-width: 1350px;
+  margin: 0 auto 80px;
+  align-items: center;
+  padding: 0px;
+  gap: 40px;
+}
+
+
+
+
+
+.abstract_box {
+  max-width: 1024px;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+
+.abstract {
+  line-height: 140%;
+  color: #005BBB;
+  margin: 0 0 16px 0;
+  text-align: left;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 28px;
+}
+
+
+
+
+
+
+
+
+.line1 {
+  border-top: 1px solid;
+  color: #005BBB;
+  max-width: 1024px;
+  height: 0px;
+  margin: 0 auto;
+  margin-bottom: 16px;
+}
+.title {
+  margin-bottom: 56px;
+  color: #005BBB;
+  margin-bottom: 16px;
+  line-height: 49px;
+  font-weight: 900;
+  font-size: 40px;
+  text-align: center;
+}
+
+.line2 {
+  
+  border-top: 1px solid;
+  color: #005BBB;
+  max-width: 500px;
+  height: 0px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+
+
+
+.boxes {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1024px;
+  margin: 0 auto 80px;
+  }
+
+
+.blue-box-cell {
+  display: flex;
+  align-items: center;
+  flex-basis: 49%;
+  background: #005BBB;
+  border-left: 10px solid #FFD500;
+  line-height: 25px;
+  color: #FFFFFF;
+  padding: 40px;
+  font-size: 18px;
+}
+
+
+
+.year {
+  font-size: 48px;
+  margin: 5px 0 0; 
+}
+
+
+
+
+
+
+
+.feedback-box {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border: 1px solid #005BBB;
+  max-width: 1024px;
+  margin: 0 auto 100px;
+  padding: 30px;
+}
+
+
+
+
+
+
+
+.comment-field {
+  flex: 1 1 0;
+  border: none;
+  resize: none;
+  outline: none;
+  padding: 20px 2px 0;
+  font-size: 18px;
+}
+
+
+
+::placeholder {
+  opacity: 0.5;
+  font-size: 18px;
+  font-family: 'Montserrat';
+  border: none;
+}
+.label-block {
+  color: #000;
+}
+.send {
+  font-size: 28px;
+  color: #fff;
+  width: 200px;
+  height: 60px;
+  background: #005BBB;
+  border: none;
+  cursor: pointer;
+  font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+.slick-slide {
+  border: solid #fff;
+  border-width: 0 20px;
+  position: relative;
+}
+
+
+
+
+
+.slick-slide img {
+  display: inline-block;
+  width: 100%;
+}
+
+
+
+
+
+.slick-slide::before {
+  content: " ";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-left-width: 10px;
+  border-left-style: solid;
+  border-image: linear-gradient(to bottom, #005BBB 50%, #FFD500 50%) 1 1;
+}
+
+
+
+
+.slick-dots {
+  display: flex;
+  justify-content: center;
+  padding: 9px;
+  margin: 40px 0 0;
+}
+
+
+
+
+.slick-dots button {
+  width: 20px;
+  height: 20px;
+  margin: 0 8px;
+  border: 1px solid #005BBB;
+  border-radius: 50%;
+  font-size: 0;
+  padding: 0;
+  background: none;
+}
+
+
+
+
+
+
+.slick-active button {
+  background: #005BBB;
+}
+
+
+
+
+
+
+
+
+
